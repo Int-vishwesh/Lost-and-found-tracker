@@ -7,6 +7,7 @@ As a beginner, it's just a project for my hackathon, it will be based on a platf
 base idea : it will be an automated app, (site for now or web app), where this will describe an image if that person have image of the lost item , it will auto describe as well as u can also describe in ur language but seperately, and then will match to description or image of the all posted found items, this is although a common approach but kindda innovative in a minimal way as it is automated, it will provoke a notification whenever it find a match to your item, there is no need to scroll the feed and wastig time. so how's my idea , feel free to suggest as it's really need I guess. thank you>>
 <br>
 <b> at the end detail </b>
+<br>
 • Two categories - lost / found
 • just like an social media platforms for posting lost and found items.
 • Will search or match according to given description of lost item and the uploaded found item description or even the image
