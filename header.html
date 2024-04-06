@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<ang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta chars!DOCTYPE html>
+<html let="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>navbar seperately</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +30,6 @@
             left: 0;
             align-items: center;
             background-color: rgb(45, 45, 45);
-            op
         }
         .logo{
             font-size: 50px;
@@ -46,41 +45,50 @@
             margin-top: 3%;
         }
         .navbar a{
+            border: 2px solid transparent;
+            margin: 5px;
+            border-radius: 5px;
             text-decoration: none;
             color:#000;
             position: relative;
             font-size: 20px;
             font-weight: 550;
             font-family: "poppins";
-            padding: 4px;
+            padding-inline: 10px;
             margin-left: 3px;
+            transition-duration: 0.5s;
         }
-        .navbar button{
-            padding: 8px;
-            
+        .navbar a:hover{
+            border: 2px solid white ;
+        }
+        .navbar .register{
+            padding: 2px;
             border: 3px solid white;
-            color: white;
             border-radius: 10px;
             background: transparent;
             cursor: pointer;
             font-size: 20px;
             outline: none;
             font-size: 1opx;
-            font-weight: 550;
-            transition-duration: 1s;
+            transition-duration: 0.5s;
         }
-        .navbar button a{
+        .navbar .register a{
+            font-size: 20px;
+            background: transparent;
+            padding-inline: 8px;
+            border: 3px;
+            border-radius: 10px;
             text-decoration: none;
             color: #fff;
             cursor: pointer;
-            transition-duration: 1s;
+            transition-duration: 0.5s;
         }
-        .navbar button:hover{
-            background-color: #000;
-            color: yellow;
+        .navbar .register:hover{
+            background-color: #fff;
+            border-color: #000;
         }
-        .navbar button a:hover{
-            color: yellow;
+        .navbar .register a:hover{
+            color: #000;
         }
 
 
@@ -99,4 +107,4 @@
     </header>
     <hr>
 </body>
-</html>
+</html> 
